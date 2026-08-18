@@ -16,7 +16,7 @@ class Solution {
             }
             else min = mid + 1;
         }
-        return ans;
+        return min;
     }
     boolean check(int[] arr, int days, int mid){
         int d = 0;
